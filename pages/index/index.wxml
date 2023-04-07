@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <image src="{{src}}" mode="widthFix"/>
+  <text>{{name}}</text>
+  <button open-type="getUserInfo" bindtap="getMyInfo" type="primary">
+    点击获取头像和昵称
+  </button>
+</view>
